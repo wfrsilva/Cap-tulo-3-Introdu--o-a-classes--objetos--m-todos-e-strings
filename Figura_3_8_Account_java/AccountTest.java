@@ -18,7 +18,7 @@ public class AccountTest {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.printf("Enter deposit amount for account1: ");
+        System.out.print("Enter deposit amount for account1: ");
         double depositAmount = input.nextDouble();
         System.out.printf("%nadding %.2f to account1 balance%n%n", depositAmount);
         account1.deposit(depositAmount);
