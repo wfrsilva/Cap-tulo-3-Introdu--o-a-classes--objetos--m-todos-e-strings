@@ -11,3 +11,4 @@ Além disso, forneça um método chamado getInvoiceAmount que calcula o valor de
 preço por item) e depois retorna esse valor como double. Se a quantidade não for positiva, ela deve ser configurada como 0. Se o preço
 por item não for positivo, ele deve ser configurado como 0.0. Escreva um aplicativo de teste chamado InvoiceTest que demonstra as
 capacidades da classe Invoice.
+![image](https://user-images.githubusercontent.com/8933834/203676971-a56ba0d7-05a5-4368-8556-d4a91f3df447.png)
