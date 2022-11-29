@@ -15,8 +15,8 @@ package Questoes_pagina_77_78.pag_77__3_12_Invoice_java;
 
 public class InvoiceTest {
     public static void main(String [] args){
-        Invoice item1 = new Invoice("0001","Blue Pen", 8, 11.55);
-        Invoice item2 = new Invoice("0002","Black Pencil", 2 , 2.25);
+        Invoice item1 = new Invoice("0001","Blue Pen", 100, 11.55);
+        Invoice item2 = new Invoice("0002","Black Pencil", 15 , 2.25);
         Invoice item3 = new Invoice("0003", "White Ruber", 5, 3.45);
 
         System.out.println("==========\t\tINVOICE\t\t==========");
@@ -26,7 +26,7 @@ public class InvoiceTest {
         System.out.printf("%s \t %s \t %d \t\t %5.2f \t %10.2f %n", item3.getNumber(), item3.getDescription(), item3.getQuantity(), item3.getPrice(), item3.getIncoiveAmount());
         System.out.println("----------\t\t\t\t----------");
         double totalInvoice = item1.getIncoiveAmount() + item2.getIncoiveAmount() + item3.getIncoiveAmount();
-        System.out.printf("Total \t %50.2f", totalInvoice);
+        System.out.printf("Total %53.2f", totalInvoice);
 
     }//main
 
