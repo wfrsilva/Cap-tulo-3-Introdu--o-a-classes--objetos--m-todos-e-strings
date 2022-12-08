@@ -83,7 +83,7 @@ public class HeartRates {
         return dayBirth;
     }//getDayBirth
 
-    public void setDayBirht(int dayBirth){
+    public void setDayBirth(int dayBirth){
         if(dayBirth > 0 && dayBirth < 32){
             this.dayBirth = dayBirth;
         }//if
